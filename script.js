@@ -18,7 +18,7 @@ function selectOption(option) {
         var newSize = parseFloat(currentFontSize) * 2; // Increase font size by  * 2px
         yesButton.style.fontSize = newSize + 'px';
     } else {
-        // If neither "Yes" nor "No" was clicked, show an alert message
+        // If neither "คิดถึงแน้วว" nor "ม่ายยย" was clicked, show an alert message
         alert('Invalid option!');
     }
 }
