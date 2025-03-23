@@ -13,13 +13,12 @@ function selectOption(option) {
         // Change text on the "ม่ายยย" button to "หราาา"
         document.getElementById('no-button').innerText = 'หราาา'; 
         // Increase font size of "คิดถึงแน้วว" button
-        var yesButton = document.getElementById('คิดถึง-button');
-        var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
+        var คิดถึงButton = document.getElementById('คิดถึง-button');
+        var currentFontSize = window.getComputedStyle(คิดถึงButton).getPropertyValue('font-size');
         var newSize = parseFloat(currentFontSize) * 2; // Increase font size by  * 2px
-        yesButton.style.fontSize = newSize + 'px';
+        คิดถึงButton.style.fontSize = newSize + 'px';
     } else {
-        // If neither "คิดถึงแน้วว" nor "ม่ายยย" was clicked, show an alert message
-        alert('Invalid option!');
+       
     }
 }
 
