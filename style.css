@@ -1,0 +1,41 @@
+/* style.css */
+
+body {
+    font-family: Arial,  sans-serif; /* Fallback font family */
+    text-align: canter; /* Center-align text */
+    margin: 0; /* Remove default margin */
+    background-color: #FFCCEA; /* Set background color to light pink */
+}
+
+
+#container  {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack element vertically */
+    align-items: center; /* Center-align items horizontally */
+    justify-content: center; /* Center-aligen items vertically */
+    height: 100vh; /* Make the container full viewport height */
+}
+
+#image-container {
+    /* This container will hold the images */
+}
+
+#question {
+    font-family: 'Sacramento', cursive; /* Apply Sacramento font to the question */
+    font-size: 52px; /* Set font size for the question */
+}
+
+#options {
+    margin-top: 20px; /* Add space above the options */
+}
+
+button {
+    padding: 10px 20px; /* Set padding for buttons */
+    margin: 0 10px; /* Set margin around buttons */
+    font-size: 26px; /* Set font size buttons */
+    font-family: 'Scramento', cursive; /* Apply Scramento font th the options */
+    background-color: #FFF6E3; /* Set button background color */
+    color: cornsilk; /* Set text color to cornsilk */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Set cursor to pointer on hover */
+}
