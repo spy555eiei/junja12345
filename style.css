@@ -1,18 +1,17 @@
 /* style.css */
 
 body {
-    font-family: Arial,  sans-serif; /* Fallback font family */
-    text-align: canter; /* Center-align text */
+    font-family: Arial, sans-serif; /* Fallback font family */
+    text-align: center; /* Center-align text */
     margin: 0; /* Remove default margin */
-    background-color: #FFCCEA; /* Set background color to light pink */
+    background-color: #FADADD; /* Set background color to light pink */
 }
 
-
-#container  {
+#container {
     display: flex; /* Use flexbox layout */
-    flex-direction: column; /* Stack element vertically */
+    flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center-align items horizontally */
-    justify-content: center; /* Center-aligen items vertically */
+    justify-content: center; /* Center-align items vertically */
     height: 100vh; /* Make the container full viewport height */
 }
 
@@ -32,10 +31,10 @@ body {
 button {
     padding: 10px 20px; /* Set padding for buttons */
     margin: 0 10px; /* Set margin around buttons */
-    font-size: 26px; /* Set font size buttons */
-    font-family: 'Scramento', cursive; /* Apply Scramento font th the options */
-    background-color: #FFF6E3; /* Set button background color */
-    color: cornsilk; /* Set text color to cornsilk */
+    font-size: 26px; /* Set font size for buttons */
+    font-family: 'Sacramento', cursive; /* Apply Sacramento font to the options */
+    background-color: #FB607F; /* Set button background color */
+    color: white; /* Set text color to white */
     border: none; /* Remove button border */
     cursor: pointer; /* Set cursor to pointer on hover */
 }
