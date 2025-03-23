@@ -3,17 +3,17 @@
 // Function to handle button click events
 function selectOption(option) {
     // Check which option was clicked
-    if (option === 'yes') {
+    if (option === 'คิดถึง') {
         // Flash rainbow colors
         flashRainbowColors(function() {
             document.getElementById('question').style.display = 'none'; // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
         });
-    } else if (option === 'no') {
+    } else if (option === 'ม่าย') {
         // Change text on the "ม่ายยย" button to "หราาา"
         document.getElementById('no-button').innerText = 'หราาา'; 
         // Increase font size of "คิดถึงแน้วว" button
-        var yesButton = document.getElementById('yes-button');
+        var yesButton = document.getElementById('คิดถึง-button');
         var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
         var newSize = parseFloat(currentFontSize) * 2; // Increase font size by  * 2px
         yesButton.style.fontSize = newSize + 'px';
