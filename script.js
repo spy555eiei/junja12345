@@ -11,7 +11,7 @@ function selectOption(option) {
         });
     } else if (option === 'ม่าย') {
         // Change text on the "ม่ายยย" button to "หราาา"
-        document.getElementById('no-button').innerText = 'หราาา'; 
+        document.getElementById('ม่าย-button').innerText = 'หราาา'; 
         // Increase font size of "คิดถึงแน้วว" button
         var คิดถึงButton = document.getElementById('คิดถึง-button');
         var currentFontSize = window.getComputedStyle(คิดถึงButton).getPropertyValue('font-size');
