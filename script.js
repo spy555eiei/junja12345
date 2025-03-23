@@ -10,9 +10,9 @@ function selectOption(option) {
             displayCatHeart(); // Display the cat-heart.gif
         });
     } else if (option === 'no') {
-        // Change text on the "No" button to "หราาา"
+        // Change text on the "ม่ายยย" button to "หราาา"
         document.getElementById('no-button').innerText = 'หราาา'; 
-        // Increase font size of "Yes" button
+        // Increase font size of "คิดถึงแน้วว" button
         var yesButton = document.getElementById('yes-button');
         var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
         var newSize = parseFloat(currentFontSize) * 2; // Increase font size by  * 2px
